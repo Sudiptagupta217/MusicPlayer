@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 seekProg.setProgress(mediaPlayer.getCurrentPosition());
             }
-        }, 0, 10);
+        }, 0, 900);
 
         seekProg.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
